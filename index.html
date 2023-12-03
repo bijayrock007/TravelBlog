@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL BLOG</title>
+    <link rel="stylesheet" href="./TravelBlog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="./TravelBlog.js" defer></script>
+        <link rel="stylesheet" media="screen and (max-width: 550px)" href="./TravelBlog-Onmediaquery.css">
+</head>
+<body>
+    <div id="background">
+        <img src="./TravelBlog/bg-2.jpg" alt="" height="800">
+    </div>
+    <div id="navbar">
+        <div class="navmenu" id="logo">
+            <div id="logoimage">
+                <img src="./TravelBlog/logo.png" alt="" width="100">
+            </div>
+            <div id="caption">
+                <div>Travel Bounty</div>
+                <div>My personal Travel Blog</div>
+            </div>
+            
+        </div>
+        <div class="navmenu" id="searchbox">
+            <input type="text" placeholder="Search Here">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="navmenu" id="menu">
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">AboutMe</a></li>
+                <li><a href="#">WorkWithMe</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div id="bar" >
+            <i class="fa-solid fa-bars" onclick="openmenu()">
+                <ul id="dropdown1" >
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#" >About Me</a></li>
+                    <li><a href="#">Work With Me</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </i>
+        </div>
+    </div>
+    <div id="prof">
+        <div id="profimage">
+            <img src="./TravelBlog/profpic.jpg" alt="" width="700">
+        </div>
+        <div>
+            <h2>Welcome!</h2>
+            <h4>Join my journey</h4>
+        </div>
+        
+    </div>
+    <div id="socialmedia">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+    <section id="post">
+        <h2>Featured Post</h2>
+        <div id="featuredpost">
+            <div>
+                <img src="./TravelBlog/travel.jpg" alt="400">
+            </div>
+            <div>
+                <h5>Nov 23</h5>
+                <h1>Top Hikes In  Austrailia</h1>
+                <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</p>
+                <hr>
+                <h5>0 comments</h5>
+            </div>
+        </div>
+    </section>
+    <section id="recentpost">
+        <h2>Recent Post</h2>
+        <div id="recentpostGrid">
+            <div class="recentpost post1">
+                <img src="./TravelBlog/diving.jpg" alt="" height="150">
+                <h3>The Most Amazing Diving Sport</h3>
+                <hr>
+                <i class="fa-solid fa-message">&nbsp 0</i>
+            </div>
+            <div class="recentpost post2">
+                <img src="./TravelBlog/foodmarket.jpg" alt="" height="150">
+                <h3>5 Food Markets Around The World</h3>
+                <hr>
+                <i class="fa-solid fa-message">&nbsp 0</i>
+            </div>
+            <div class="recentpost post3">
+                <img src="./TravelBlog/Mexico.jpg" alt="" height="150">
+                <h3>Mexico: A Culinary Journey</h3>
+                <hr>
+                <i class="fa-solid fa-message">&nbsp 0</i>
+            </div>
+            <div class="recentpost post4">
+                <img src="./TravelBlog/globe.jpg" alt="" height="150">
+                <h3>5 Best Country To Visit In winter</h3>
+                <hr>
+                <i class="fa-solid fa-message">&nbsp 0</i>
+            </div>
+            <div class="recentpost post5">
+                <img src="./TravelBlog/budget.jpg" alt="" height="150">
+                <h3>5 Tips For Budget Travelers</h3>
+                <hr>
+                <i class="fa-solid fa-message">&nbsp 0</i>
+            </div>
+            <div class="recentpost post6">
+                <img src="./TravelBlog/austrailia.jpg" alt="" height="150">
+                <h3>Top Hikes In Australia</h3>
+                <hr>
+                <i class="fa-solid fa-message">&nbsp 0</i>
+            </div>
+        </div>
+    </section>
+    <section id="statitics">
+        <h2>98 <br> Country Visited</h2>
+        <h2>7 <br> Continent Viisted</h2>
+        <h2>8 <br> Torn Pair Of Shoes</h2>
+        <h2>2 <br> Lost BagPacks</h2>
+    </section>
+    <section id="counties1">
+        <div class="visitedcountries">
+            <img src="./TravelBlog/1-india.jpg" alt="" height="300">
+            <h2>INDIA</h2>
+        </div>
+        <div class="visitedcountries"><img src="./TravelBlog/2-singapore.jpg" alt="" height="300">
+            <h2>SINGAPORE</h2>
+        </div>
+        <div class="visitedcountries"><img src="./TravelBlog/3-vietnam.jpg" alt="" height="300">
+            <h2>VIETNAM</h2>
+        </div>
+        <div class="visitedcountries"><img src="./TravelBlog/4-turkey.jpg" alt="" height="300">
+            <h2>TURKEY</h2>
+        </div>
+        <div class="visitedcountries"><img src="./TravelBlog/5-israel.jpg" alt="" height="300">
+            <h2>ISRAEL</h2>
+        </div>
+        <div class="visitedcountries"><img src="./TravelBlog/6-spain.jpg" alt="" height="300">
+            <h2>SPAIN</h2>
+        </div>
+        <div class="visitedcountries"><img src="./TravelBlog/7-norway.jpg" alt="" height="300">
+            <h2>NORWAY</h2>
+        </div>
+        <div class="visitedcountries"><img src="./TravelBlog/8-austrailia.jpg" alt="" height="300">
+            <h2>AUSTRAILIA</h2>
+        </div>
+        <div class="visitedcountries"><img src="./TravelBlog/9-usa.jpg" alt="" height="300">
+            <h2>USA</h2>
+        </div>
+    </section>
+    <section id="counties2">
+        <div class="visitedcountries">
+            <img src="./TravelBlog/10-mexico.jpg" alt="" height="300">
+            <h2>MEXICO</h2>
+        </div>
+        <div class="visitedcountries"><img src="./TravelBlog/11-cnada.jpg" alt="" height="300">
+            <h2>CANADA</h2>
+        </div>
+        <div class="visitedcountries"><img src="./TravelBlog/12-Bbrazil.jpg" alt="" height="300">
+            <h2>BRAZIL</h2>
+        </div>
+        <div class="visitedcountries"><img src="./TravelBlog/16-uae.jpg" alt="" height="300">
+            <h2>UAE</h2>
+        </div>
+        
+        <div class="visitedcountries"><img src="./TravelBlog/14-germany.jpg" alt="" height="300">
+            <h2>GERMANY</h2>
+        </div>
+        <div class="visitedcountries"><img src="./TravelBlog/15-alaska.jpg" alt="" height="300">
+            <h2>ALASKA</h2>
+        </div>
+    </section>
+    <div id="showmore">
+        <button class="btn" id="showmoreBTN" onclick="HideShow()">SHOW MORE</button>
+    </div>
+    <section id="subscription">
+        <h2>Subscribe here and get the latest travel tips  and my insider secrets!</h2>
+        <input type="text" placeholder="Enter Your Email">
+        <button class="btn" id="subscribe">SUBSCRIBE</button>
+    </section>
+    <footer id="footer">© 2035 by On the Trail. Powered and secured by swabitech.com</footer>
+</body>
+</html>
